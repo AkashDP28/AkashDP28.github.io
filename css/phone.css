@@ -1,0 +1,135 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 310px;
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+
+#home img {
+    height: 150px;
+    width: 150px;
+}
+#home p {
+    font-size: 12px;
+}
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+#gamejam{
+    flex-direction: column;
+}
+
+#gamejam .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+
+#about .aboutcontainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid brown;
+    border-radius: 23px;
+    padding: 10px;
+    margin: 2px 47px;
+    width: 250px;
+    height: 300px;
+}
+/* media="screen and (max-width: 1170px)"; */
+.aboutcontainer {
+    /* background-color: brown; */
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+    width: 150px;
+}
+.aboutcontainer p{
+    font-size: 13px;
+}
+#about h1{
+    font-size: 1.8rem;
+}
+
+#services .box img{
+  height: 120px;
+  margin: auto;
+  display: block;
+}
+#gamejam .box img{
+  height: 120px;
+  margin: auto;
+  display: block;
+}
+
+.box a{
+    font-size: 15px;
+}
+/* Clients section */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+.client-item a {
+    font-size: 13px;
+    margin: 5px;
+    padding: 5px;
+}
+.client-item p{
+    font-size: 11px;
+}
+/* Contact us section */
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#cvbtn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.aboutcontainer a{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#navbar ul li a {
+    font-size: 0.5rem;
+}

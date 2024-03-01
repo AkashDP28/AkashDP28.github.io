@@ -48,10 +48,11 @@
 }
 
 
-/* #about .aboutcontainer {
+/*
+#about .aboutcontainer {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     border: 2px solid brown;
     border-radius: 23px;
@@ -60,21 +61,13 @@
     width: 250px;
     height: 300px;
 }
-/* media="screen and (max-width: 1170px)"; */
-.aboutcontainer {
-    /* background-color: brown; */
-    padding: 14px;
-    margin: 2px 0px;
-    margin-bottom: 20px;
-    width: 150px;
-}
 .aboutcontainer p{
     font-size: 13px;
 }
 #about h1{
     font-size: 1.8rem;
 }
-*/
+
 #services .box img{
   height: 120px;
   margin: auto;
@@ -89,6 +82,12 @@
 .box a{
     font-size: 15px;
 }
+
+#navbar ul li a {
+    font-size: 0.5rem;
+}
+*/
+
 /* Clients section */
 #clients{
     flex-wrap: wrap;
@@ -129,7 +128,4 @@
 .aboutcontainer a{
     font-size: 13px;
     padding: 4px 8px;
-}
-#navbar ul li a {
-    font-size: 0.5rem;
 }

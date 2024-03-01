@@ -44,10 +44,7 @@ html{
     /* border-radius: 0px 10px 0px 10px; */
 }
 
-
-
 /* Navigation Bar: List Styling */
-
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai', cursive;
@@ -118,7 +115,8 @@ html{
 }
 
 /* about section */
-/*#about{
+/*
+#about{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -129,9 +127,9 @@ html{
 #about .aboutcontainer{
     display: flex;
     flex-direction: column;
-    background-color: rgb(235, 229, 174);*/
-    /* justify-content: center; */
-    /*align-items: center;
+    background-color: rgb(235, 229, 174);
+    justify-content: center;
+    align-items: center;
     border: 2px solid brown;
     border-radius: 23px;
     padding: 10px;
@@ -162,7 +160,9 @@ html{
 
 .aboutcontainer a:hover{
     background-color: rgb(192, 3, 3);
-}*/
+}
+*/
+
 
 
 /* Services Section */

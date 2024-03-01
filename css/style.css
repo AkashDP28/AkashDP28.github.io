@@ -118,7 +118,7 @@ html{
 }
 
 /* about section */
-#about{
+/* #about{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,7 +163,7 @@ html{
 .aboutcontainer a:hover{
     background-color: rgb(192, 3, 3);
 }
-
+*/
 
 /* Services Section */
 #services{
